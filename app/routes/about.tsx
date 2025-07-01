@@ -1,4 +1,6 @@
-import React from 'react'
+export function HydrateFallback() {
+    return <p>Loading Game...</p>;
+}
 
 const about = () => {
     return (
